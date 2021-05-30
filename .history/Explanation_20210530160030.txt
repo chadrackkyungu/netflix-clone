@@ -34,14 +34,11 @@ inside theaxiso i have the API url link, then inside Request.j file i have diff 
 
 then i went in the banner.js file then grab the data there 
 
-(7) DEPLOYEMENT USING FIREBASE. THIS IS BASICLY CONNECTING OUR APP WITH FIREBASE 
+(7) DEPLOYEMENT USING FIREBASE.
 => firebase login
 
-Note: when u are doing this, it is globally in the machin terminal, make sure all these steps your iniside the Projects Directory 
-example => D:\REACT JS PROJECTS\netflix-clone
-
 it will show this=> 
-=> D:\REACT JS PROJECTS\netflix-clone firebase login
+C:\Users\chadr>firebase login
 Already logged in as chadrackkyungu624@gmail.com
 
 => firebase init
@@ -52,16 +49,5 @@ then choose an existing Projects.
 ? What do you want to use as your public directory? (public)    type =>  build then it enter
 
 Configure as a single-page app (rewrite all urls to /index.html)?    type => y and it enter 
-? Set up automatic builds and deploys with GitHub? (y/N)     type => n it enter. 
-Done
+? Set up automatic builds and deploys with GitHub? (y/N)     type => n it enter
  
-
- (8) AFTER CONNECTING, NOW WE ARE BUNDLING OUR APP AND PASS IT TO FIREBASE
- Note: to do this make sure u are inside your Project Directory
- Example: D:\REACT JS PROJECTS\netflix-clone>
- => npm run build
-
- Done!!
-
- (9) DEPLOY NOW 
- => firebase deploy 100% successfull

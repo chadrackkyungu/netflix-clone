@@ -31,37 +31,3 @@ here is the key : 30221dcc07d3e97c102c5cee98047de6
 
 then i create 2 files, 1 axios.js, Request.js, axios to get the url and request to store the KEY for the API
 inside theaxiso i have the API url link, then inside Request.j file i have diff kind of movies that wanna request.
-
-then i went in the banner.js file then grab the data there 
-
-(7) DEPLOYEMENT USING FIREBASE. THIS IS BASICLY CONNECTING OUR APP WITH FIREBASE 
-=> firebase login
-
-Note: when u are doing this, it is globally in the machin terminal, make sure all these steps your iniside the Projects Directory 
-example => D:\REACT JS PROJECTS\netflix-clone
-
-it will show this=> 
-=> D:\REACT JS PROJECTS\netflix-clone firebase login
-Already logged in as chadrackkyungu624@gmail.com
-
-=> firebase init
-choose y, then choose Hosting by clicking on space key on ur keyboard,
-
-then choose an existing Projects.
-
-? What do you want to use as your public directory? (public)    type =>  build then it enter
-
-Configure as a single-page app (rewrite all urls to /index.html)?    type => y and it enter 
-? Set up automatic builds and deploys with GitHub? (y/N)     type => n it enter. 
-Done
- 
-
- (8) AFTER CONNECTING, NOW WE ARE BUNDLING OUR APP AND PASS IT TO FIREBASE
- Note: to do this make sure u are inside your Project Directory
- Example: D:\REACT JS PROJECTS\netflix-clone>
- => npm run build
-
- Done!!
-
- (9) DEPLOY NOW 
- => firebase deploy 100% successfull

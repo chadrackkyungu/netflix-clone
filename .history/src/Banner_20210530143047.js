@@ -52,7 +52,7 @@ function Banner() {
         <h1 className="banner__description">
           {/* this is our func on top we pass him 2 param the string and the number */}
           {truncate(
-            movie?.overview,
+            `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam adipisci neque dicta ipsam deleniti quos odit? Eum, nihil unde alias corporis officiis qui, voluptate quam ex necessitatibus animi culpa Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium quae itaque illum deserunt ipsa repudiandae numquam laborum quaerat perferendis quisquam minima facere ratione dignissimos vitae, nihil obcaecati, eveniet id? .`,
             150 //this is the number
           )}
         </h1>
