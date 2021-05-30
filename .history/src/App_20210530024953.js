@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import HomeScreen from './HomeSreen';
 
 function App() {
   return (
-    <div className="app">
-      <HomeScreen />
+    <div className="App">
+      <h1>Let go!!!!!!!!!!!1</h1>
     </div>
   );
 }

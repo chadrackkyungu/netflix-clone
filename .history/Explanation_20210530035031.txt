@@ -1,0 +1,22 @@
+0. Introduction
+Go to Project directory then do this :
+Note: when createing a new App make sure it all lowercase
+=> npx create-react-app netflix-clone --template redux
+
+Note: make sure not to used Appcase first letter for naming class in css
+
+1. SETING UP DATABASE
+Go to firebase create a new Project, make sure you tick unable, by default it is anable. 
+
+after the Project is create go to settings then click on this => </, this is where you can Register the credetial of your App. 
+after u click on it, it will asked u to Register your App, give it a a name, tick where it says Also set up Firestore hosting, then click on the Register app btn, then it will give you this command => npm install -g firebase-tools, go to ur teminal and install it, then click <next> btn, then click continue, then go and click config ,then copy that firebase Config code.
+
+(2) click on authentication,clik on Getstarted, then choose Email, then tick only on the first Enable the click save. done, now we have enable Google authentication in our Project.
+
+(3) go to features folder => counter folder, cut the file => counterSlice.js and past it inside features folder
+(4) go to app folder/store.js:
+// import counterReducer from '../features/counter/counterSlice'; from this
+import counterReducer from '../features/counterSlice'; to this
+
+(5) BUILDING THE NAVBAR 
+if you wanna get any picture link go to google search for the pic then right click on it and choose where it says copy image adress

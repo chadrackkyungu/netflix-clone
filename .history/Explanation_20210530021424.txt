@@ -1,0 +1,3 @@
+0. Introduction
+Go to Project directory then do this :
+=> npx create-react-app netflix-clone --template redux

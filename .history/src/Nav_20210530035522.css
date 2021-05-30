@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  position: fixed;
+  left: 0;
+}
+.nav__avatar {
+  position: fix;
+  right: 20px;
+  width: 30px;
+}

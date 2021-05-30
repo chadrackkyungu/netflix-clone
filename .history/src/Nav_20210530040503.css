@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__black {
+  background: black;
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  position: fixed;
+  left: 0;
+  width: 80px;
+  cursor: pointer;
+  padding-left: 20px;
+  object-fit: contain;
+}
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  cursor: pointer;
+}
