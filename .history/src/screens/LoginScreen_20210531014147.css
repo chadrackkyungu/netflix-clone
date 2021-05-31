@@ -1,0 +1,20 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  padding: 1.2em 1.4em;
+  font-size: 1rem;
+  color: #fff;
+  background: #e50914;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+}

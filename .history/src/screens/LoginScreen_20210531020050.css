@@ -1,0 +1,41 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/netflix-background-9.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 0.6em 1.4em;
+  font-size: 1rem;
+  color: #fff;
+  background: #e50914;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}

@@ -71,6 +71,3 @@ Done
  make sure you have firebase.js file in your project
  now install:
  => npm install firebase
- => npm install react-router-dom //=> this is for navigating between screens
-
- (1) building the sign up screen
