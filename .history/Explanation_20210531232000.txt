@@ -83,7 +83,6 @@ Done
  Note: after we have the user information, now we know that the user as logIn or logout, we need to pass the logIn info inside the All 
  App so that we ca do something with that information.
 
- we create the Redux inside /features/userSlice.js, then we store our redux inside /app/store.js, then we pass the store to the Entire App, inside index.js file, remember if you use next.js, some of these steps are done already. 
+ we create the Redux inside /features/userSlice.js, then we store our redux inside /app/store.js, then we pass the store to the Entire App, inside App.js file, remember if you use next.js, it some of these steps are done already. 
 
-Next is to pass that action to our redux userSlice.js, the action will be taken from App.js file then pass to userSlice.js
  

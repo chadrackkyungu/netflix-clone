@@ -79,11 +79,4 @@ Done
  then i use it inside the SignUpScreen.js ,
  then now I'm using it inside the App.js to check if the user was logIn already he/she go to home page even whe he refresh the as long as is login already he should be go to home page already.
 
- (3) IMPLEMENTING REDUX TO PASS THE USER ACTION, WHICH IS LOGIN & LOGOUT
- Note: after we have the user information, now we know that the user as logIn or logout, we need to pass the logIn info inside the All 
- App so that we ca do something with that information.
-
- we create the Redux inside /features/userSlice.js, then we store our redux inside /app/store.js, then we pass the store to the Entire App, inside index.js file, remember if you use next.js, some of these steps are done already. 
-
-Next is to pass that action to our redux userSlice.js, the action will be taken from App.js file then pass to userSlice.js
  

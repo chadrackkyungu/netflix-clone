@@ -1,5 +1,4 @@
 import React, {useRef} from 'react';
-import {auth} from '../firebase';
 import './SignUpScreen.css';
 
 function SignUpScreen() {
@@ -8,39 +7,17 @@ function SignUpScreen() {
 
   const register = (e) => {
     e.preventDefault();
-
-    auth
-      .createUserWithEmailAndPassword(
-        emailRef.current.value,
-        passwordRef.current.value
-      )
-      .then((authUser) => {
-        console.log(authUser);
-      })
-      .catch((error) => {
-        alert(error.message);
-      });
   };
   const signIn = (e) => {
     e.preventDefault();
-
-    auth
-      .signInWithEmailAndPassword(
-        emailRef.current.value,
-        passwordRef.current.value
-      )
-      .then((authUser) => {
-        console.log(authUser);
-      })
-      .catch((error) => alert(error.message));
   };
 
   return (
     <div className="signupScreen">
       <form>
         <h1>Sign In</h1>
-        <input ref={emailRef} type="Email" placeholder="email" />
-        <input ref={passwordRef} type="password" placeholder="password" />
+        <input type="Email" placeholder="email" />
+        <input type="password" placeholder="password" />
         {/* use type submit preferable */}
         <button type="submit" onClick={signIn}>
           Sign In

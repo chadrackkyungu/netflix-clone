@@ -85,5 +85,4 @@ Done
 
  we create the Redux inside /features/userSlice.js, then we store our redux inside /app/store.js, then we pass the store to the Entire App, inside index.js file, remember if you use next.js, some of these steps are done already. 
 
-Next is to pass that action to our redux userSlice.js, the action will be taken from App.js file then pass to userSlice.js
  

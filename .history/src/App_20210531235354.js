@@ -18,16 +18,16 @@ function App() {
         dispatch(
           login({
             uid: userAuth.uid,
-            email: userAuth.email,
+            email: userAuth.uid,
           })
         );
       } else {
-        dispatch(logout());
+        dispatch(logout);
       }
     });
 
     return unsubScribe;
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="app">
