@@ -206,9 +206,3 @@ ATTENTION: What is happening here is: you have a stripe Account and firestoreDat
 Now we are implementing the chceckout page,we want when the user click subscribed it should popUp that stripe payment page.
 
 => installation @stripe/stripe-js
-
-then continue the build now we are powering the subscrib button.
-
-BOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMM!!!!!!!!!! Successfull Payment.
-
-Now go to ur stripMETADATA click on Edit the in the firts input type in : firebaseRole then the on e next to it, typein Premium then click record, then select the second plan do the same, this will submit the user plan with the name of the oplan that the user subscribed for then u can update that to ur screen.
